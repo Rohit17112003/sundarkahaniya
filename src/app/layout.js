@@ -8,7 +8,7 @@ const outfit = Outfit({
   variable: "--font-outfit", // Optional if you want to use CSS var
   display: "swap",
 });
-  
+
 import Footer from "@/ui/Footer/Footer";
 import FooterHero from "@/ui/Footer/FooterHero";
 import Header from "@/ui/Header/Header";
@@ -22,7 +22,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${outfit.className}> antialiased px-8 `}>
+      <body className={`${outfit.className}> antialiased `}>
         <Header />
         <main className="px-4 md:px-16"> {children}</main>
         <FooterHero />
