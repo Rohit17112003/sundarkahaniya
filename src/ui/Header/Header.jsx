@@ -35,7 +35,7 @@ const Header = () => {
             <input
               type="text"
               placeholder="Search for your desired Stories"
-              className="w-full bg-transparent focus:outline-none md:text-sm text-[0.5rem] text-black tracking-wide"
+              className="w-full bg-transparent focus:outline-none text-sm  text-black tracking-wide"
             />
           </div>
           <IoMdNotificationsOutline className="md:text-3xl text-4xl cursor-pointer text-gray-900 hover:text-[#e40046]" />

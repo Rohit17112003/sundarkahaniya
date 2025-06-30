@@ -17,7 +17,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-[#000000d8] text-white px-4 md:px-16 pt-8 pb-24 md:pb-10 text-[0.9rem]">
+      <footer className="bg-[#000000d8] text-white px-4 md:px-16 pt-8 pb-12 md:pb-10 text-[0.9rem]">
         <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-6">
           {/* Mobile App Section */}
           <div>
@@ -94,27 +94,23 @@ const Footer = () => {
             <h3 className="relative inline-block after:absolute after:-bottom-1 after:left-0 after:w-[44px] after:h-[2px] after:bg-red-500 font-semibold">
               Follow us on Social Media
             </h3>
-           <div className="mt-7 flex gap-4">
-      {/* Facebook */}
-      <div className="relative group bg-blue-600 rounded-full p-2 hover:brightness-110 transition">
-        <FaFacebookF className="text-white text-lg cursor-pointer" />
-      </div>
+            <div className="mt-7 flex gap-4">
+              <div className="relative group bg-blue-600 rounded-full p-2 hover:brightness-110 transition">
+                <FaFacebookF className="text-white text-lg cursor-pointer" />
+              </div>
 
-      {/* Twitter */}
-      <div className="relative group bg-sky-400 rounded-full p-2 hover:brightness-110 transition">
-        <FaTwitter className="text-white text-lg cursor-pointer" />
-      </div>
+              <div className="relative group bg-sky-400 rounded-full p-2 hover:brightness-110 transition">
+                <FaTwitter className="text-white text-lg cursor-pointer" />
+              </div>
 
-      {/* YouTube */}
-      <div className="relative group bg-red-600 rounded-full p-2 hover:brightness-110 transition">
-        <FaYoutube className="text-white text-lg cursor-pointer" />
-      </div>
+              <div className="relative group bg-red-600 rounded-full p-2 hover:brightness-110 transition">
+                <FaYoutube className="text-white text-lg cursor-pointer" />
+              </div>
 
-      {/* Instagram */}
-      <div className="relative group bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 rounded-full p-2 hover:brightness-110 transition">
-        <FaInstagram className="text-white text-lg cursor-pointer" />
-      </div>
-    </div>
+              <div className="relative group bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 rounded-full p-2 hover:brightness-110 transition">
+                <FaInstagram className="text-white text-lg cursor-pointer" />
+              </div>
+            </div>
           </div>
         </div>
       </footer>
