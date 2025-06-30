@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const StoryCard = ({ rating, count, img, title, time, readers, parts }) => {
   return (
-    <div className="relative shrink-0 w-[180px] h-auto rounded-lg flex flex-col gap-1">
+    <div className="relative shrink-0 w-[180px] h-auto rounded-md flex flex-col gap-1">
       {/* Image Section */}
-      <div className="relative w-full h-68 rounded-xl overflow-hidden">
+      <div className="relative w-full h-68 rounded-lg overflow-hidden cursor-pointer">
         <Image
           src={img}
           alt={title}

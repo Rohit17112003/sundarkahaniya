@@ -11,6 +11,7 @@ import Drama from "../Molecules/Drama";
 import Biopics from "../Molecules/Biopics";
 import Truecrimes from "../Molecules/Truecrimes";
 import Worldfriction from "../Molecules/Worldfriction";
+import SimpleSlider from "../Molecules/Banner";
 
 const Homepage = () => {
   return (
@@ -30,6 +31,7 @@ const Homepage = () => {
         <Biopics />
         <Truecrimes />
         <Worldfriction />
+        <SimpleSlider/>
       </section>
     </div>
   );

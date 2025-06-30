@@ -5,7 +5,7 @@ const Worldfriction = () => {
   const { world } = Wordfriction;
   return (
     <div>
-      <section>
+      <section className="mb-16">
         <div>
           <div className="flex justify-between">
             <h1 className=" text-4xl font-bold text-black mt-10 mb-5 ">

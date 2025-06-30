@@ -117,7 +117,7 @@ const Footer = () => {
 
       {/* Bottom Footer Bar */}
       <div className="bg-[#000000e1] text-white flex flex-wrap justify-center md:mb-0 mb-14 px-4">
-        <p className="py-3.5 text-[0.8rem] text-center font-semibold tracking-wide">
+        <p className="py-3.5 text-[0.7rem] md:text-[0.8rem] text-center font-semibold tracking-wide">
           © 2025 Nasadiya Tech. Pvt. Ltd. |
           <span className="hover:underline cursor-pointer"> About Us</span> |
           <span className="hover:underline cursor-pointer"> Work With Us</span>|

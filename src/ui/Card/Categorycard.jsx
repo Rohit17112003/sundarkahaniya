@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const Categorycard = ({ img, title }) => {
   return (
-    <div className="relative shrink-0 w-[300px] h-auto rounded-lg flex flex-col gap-1">
+    <div className="relative shrink-0 w-[290px] h-auto rounded-lg flex flex-col gap-1 cursor-pointer">
       {/* Image Section */}
-      <div className="relative w-full h-48 rounded-xl overflow-hidden">
+      <div className="relative w-full h-48 rounded-md overflow-hidden">
         <Image
           fill
           src={img}
