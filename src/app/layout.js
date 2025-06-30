@@ -1,4 +1,3 @@
-
 import { Outfit } from "next/font/google";
 
 import "./globals.css";
@@ -32,7 +31,5 @@ export default function RootLayout({ children }) {
         <Footer />
       </body>
     </html>
-
   );
-
 }
