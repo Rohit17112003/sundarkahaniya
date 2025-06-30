@@ -1,6 +1,13 @@
+
 import { Outfit } from "next/font/google";
+
 import "./globals.css";
+
 import "remixicon/fonts/remixicon.css";
+import Header from "@/ui/Header/Header";
+import FooterHero from "@/ui/Footer/FooterHero";
+import BottomNav from "@/ui/BottomNav/BottomNav";
+import Footer from "@/ui/Footer/Footer";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -8,11 +15,6 @@ const outfit = Outfit({
   variable: "--font-outfit", // Optional if you want to use CSS var
   display: "swap",
 });
-
-import Footer from "@/ui/Footer/Footer";
-import FooterHero from "@/ui/Footer/FooterHero";
-import Header from "@/ui/Header/Header";
-import BottomNav from "@/ui/BottomNav/BottomNav";
 
 export const metadata = {
   title: "Create Next App",
@@ -30,5 +32,7 @@ export default function RootLayout({ children }) {
         <Footer />
       </body>
     </html>
+
   );
+
 }
