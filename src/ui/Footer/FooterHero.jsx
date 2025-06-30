@@ -35,15 +35,17 @@ const FooterHero = () => {
   };
 
   return (
-    <div className='flex justify-center text-gray-900'>
-      <div className=" w-full md:w-7/12 md:flex justify-between  py-6 px-4   gap-2">
+   <>
+   <hr className='my-5 text-pink-300'></hr>
+     <div className='flex justify-center text-gray-900'>
+      <div className=" w-full md:w-8/12 md:flex justify-between  md:py-10 py-6 px-4   gap-2 text-gray-900">
       {sections.map((section, index) => (
         <div
           key={index}
-          className="  border-b border-gray-200 pb-2"
+          className="border-gray-200 pb-2"
         >
           <button
-            className="w-full flex items-center justify-between  font-bold py-2 md:cursor-default"
+            className="w-full flex items-center justify-between  font-bold py-2 md:cursor-default text-gray-900"
             onClick={() => {
               if (isMobile) toggle(index);
             }}
@@ -51,26 +53,27 @@ const FooterHero = () => {
             {section.title}
             {isMobile && (
               open === index ? (
-                <IoMdArrowDropup className="text-xl" />
+                <IoMdArrowDropup className="text-lg" />
               ) : (
-                <IoMdArrowDropdown className="text-xl" />
+                <IoMdArrowDropdown className="text-lg" />
               )
             )}
           </button>
 
           <ul
-            className={`text-sm transition-all duration-300 ease-in-out overflow-hidden ${
+            className={`text-sm transition-all duration-300 ease-in-out overflow-hidden text-gray-900 ${
               open === index || !isMobile ? 'block' : 'hidden'
             }`}
           >
             {section.items.map((item, i) => (
-              <li key={i} className="py-1">{item}</li>
+              <li key={i} className="py-1 text-[0.9rem]">{item}</li>
             ))}
           </ul>
         </div>
       ))}
     </div>
     </div>
+   </>
   );
 };
 

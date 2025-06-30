@@ -39,7 +39,7 @@ const LanguageDropdown = () => {
         <IoMdArrowDropdown />
       </button>
       {open && (
-        <ul className="absolute left-0 mt-1 w-40 bg-white shadow-lg rounded-md border border-gray-300 z-50">
+        <ul className="absolute left-0 mt-1 w-40 bg-white shadow-lg rounded-md border border-gray-300 z-50 text-gray-900">
           {languages.map((lang) => (
             <li
               key={lang.code}
