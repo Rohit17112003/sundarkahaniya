@@ -1,18 +1,18 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Outfit } from "next/font/google";
 import "./globals.css";
+import "remixicon/fonts/remixicon.css";
+
+const outfit = Outfit({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"], // Add or adjust weights
+  variable: "--font-outfit", // Optional if you want to use CSS var
+  display: "swap",
+});
+  
 import Footer from "@/ui/Footer/Footer";
 import FooterHero from "@/ui/Footer/FooterHero";
 import Header from "@/ui/Header/Header";
 import BottomNav from "@/ui/BottomNav/BottomNav";
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata = {
   title: "Create Next App",
@@ -22,9 +22,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased  `}
-      >
+      <body className={`${outfit.className}> antialiased px-8 `}>
         <Header />
         <main className="px-4 md:px-16"> {children}</main>
         <FooterHero />
