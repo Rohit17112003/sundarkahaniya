@@ -1,4 +1,3 @@
-
 import { Outfit } from "next/font/google";
 
 import "./globals.css";
@@ -26,13 +25,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${outfit.className}> antialiased `}>
         <Header />
-        <main className="px-4 md:px-16"> {children}</main>
+        <main className="px-8"> {children}</main>
         <FooterHero />
         <BottomNav />
         <Footer />
       </body>
     </html>
-
   );
-
 }
