@@ -2,6 +2,15 @@ import React from "react";
 import Toptrendingseries from "../Molecules/Toptrendingseries";
 import Topupdatedseries from "../Molecules/Topupdatedseries";
 import Category from "../Molecules/Category";
+import Bestsellers from "../Molecules/Bestsellers";
+import Romance from "../Molecules/Romance";
+import Youthstories from "../Molecules/Youthstories";
+import Suspense from "../Molecules/Suspense";
+import Mostlovedstories from "../Molecules/Mostlovedstories";
+import Drama from "../Molecules/Drama";
+import Biopics from "../Molecules/Biopics";
+import Truecrimes from "../Molecules/Truecrimes";
+import Worldfriction from "../Molecules/Worldfriction";
 
 const Homepage = () => {
   return (
@@ -12,6 +21,15 @@ const Homepage = () => {
         <Toptrendingseries />
         <Topupdatedseries />
         <Category />
+        <Bestsellers />
+        <Romance />
+        <Youthstories />
+        <Suspense />
+        <Mostlovedstories />
+        <Drama />
+        <Biopics />
+        <Truecrimes />
+        <Worldfriction />
       </section>
     </div>
   );
