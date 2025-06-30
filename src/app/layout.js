@@ -1,14 +1,12 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Outfit } from "next/font/google";
 import "./globals.css";
+import "remixicon/fonts/remixicon.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const outfit = Outfit({
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"], // Add or adjust weights
+  variable: "--font-outfit", // Optional if you want to use CSS var
+  display: "swap",
 });
 
 export const metadata = {
@@ -19,9 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased px-4 md:px-16 `}
-      >
+      <body className={`${outfit.className}> antialiased px-8 `}>
         {children}
       </body>
     </html>

@@ -1,0 +1,94 @@
+{
+     "series": [
+            {
+              "count": "#1",
+              "rating":"4.5",
+              "title": "Celestial Bonds",
+          "img": "https://images.pexels.com/photos/10802159/pexels-photo-10802159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+              "time": "48",
+              "readers": "49L+",
+              "parts":"25"
+            },
+            {
+              "count": "#2",
+               "rating":"4.5",
+              "title": "Celestial Bonds",
+          "img": "https://images.pexels.com/photos/10802159/pexels-photo-10802159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+              "time": "48",
+              "readers": "49L+",
+                "parts":"25"
+            },
+            {
+              "count": "#3",
+               "rating":"4.5",
+              "title": "Celestial Bonds",
+          "img": "https://images.pexels.com/photos/10802159/pexels-photo-10802159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+              "time": "48",
+              "readers": "49L+",
+                "parts":"25"
+            },
+            {
+              "count": "#4",
+               "rating":"4.5",
+              "title": "Celestial Bonds",
+          "img": "https://images.pexels.com/photos/10802159/pexels-photo-10802159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+              "time": "48",
+              "readers": "49L+",
+                "parts":"25"
+            },
+            {
+              "count": "#5",
+               "rating":"4.5",
+              "title": "Celestial Bonds",
+          "img": "https://images.pexels.com/photos/10802159/pexels-photo-10802159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+              "time": "48",
+              "readers": "49L+",
+                "parts":"25"
+            },
+            {
+              "count": "#6",
+               "rating":"4.5",
+              "title": "Celestial Bonds",
+          "img": "https://images.pexels.com/photos/10802159/pexels-photo-10802159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+              "time": "48",
+              "readers": "49L+",
+                "parts":"25"
+            },
+             {
+              "count": "#7",
+               "rating":"4.5",
+              "title": "Celestial Bonds",
+          "img": "https://images.pexels.com/photos/10802159/pexels-photo-10802159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+              "time": "48",
+              "readers": "49L+",
+                "parts":"25"
+            },
+             {
+              "count": "#8",
+               "rating":"4.5",
+              "title": "Celestial Bonds",
+          "img": "https://images.pexels.com/photos/10802159/pexels-photo-10802159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+              "time": "48",
+              "readers": "49L+",
+                "parts":"25"
+            },
+             {
+              "count": "#9",
+               "rating":"4.5",
+              "title": "Celestial Bonds",
+          "img": "https://images.pexels.com/photos/10802159/pexels-photo-10802159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+              "time": "48",
+              "readers": "49L+",
+                "parts":"25"
+            },
+             {
+              "count": "#10",
+               "rating":"4.5",
+              "title": "Celestial Bonds",
+          "img": "https://images.pexels.com/photos/10802159/pexels-photo-10802159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+              "time": "48",
+              "readers": "49L+",
+                "parts":"25"
+            }
+          ]
+}

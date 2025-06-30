@@ -1,12 +1,12 @@
-import React from 'react'
+import Homepage from "@/ui/Pages/Homepage";
+import React from "react";
 
 const page = () => {
   return (
     <>
-    <h1>Wellcome to home page</h1>
-      
+      <Homepage />
     </>
-  )
-}
+  );
+};
 
 export default page;
