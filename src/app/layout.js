@@ -1,9 +1,19 @@
+import { Outfit } from "next/font/google";
+
 import "./globals.css";
+
 import "remixicon/fonts/remixicon.css";
 import Header from "@/ui/Header/Header";
 import FooterHero from "@/ui/Footer/FooterHero";
 import BottomNav from "@/ui/BottomNav/BottomNav";
 import Footer from "@/ui/Footer/Footer";
+
+const outfit = Outfit({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"], // Add or adjust weights
+  variable: "--font-outfit", // Optional if you want to use CSS var
+  display: "swap",
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -13,15 +23,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
-      </head>
-      <body className="font-outfit antialiased">
+      <body className={`${outfit.className}> antialiased `}>
         <Header />
-        <main className="px-4 md:px-16">{children}</main>
+        <main className="px-4 md:px-16"> {children}</main>
         <FooterHero />
         <BottomNav />
         <Footer />
