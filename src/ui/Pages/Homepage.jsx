@@ -17,8 +17,8 @@ const Homepage = () => {
   return (
     <div>
       <section>
-        <h1 className="text-4xl text-black mt-8 mb-1 ">Read English Stories</h1>
-        <h1 className="text-gray-600 text-2xl ">A World of Stories</h1>
+        <h1 className="md:text-4xl text-xl font-bold text-gray-900 mt-8 mb-1 ">Read English Stories</h1>
+        <h1 className="text-gray-600 md:text-2xl text-lg ">A World of Stories</h1>
         <Toptrendingseries />
         <Topupdatedseries />
         <Category />

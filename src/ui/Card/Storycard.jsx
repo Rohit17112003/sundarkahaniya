@@ -32,7 +32,7 @@ const StoryCard = ({ rating, count, img, title, time, readers, parts }) => {
       </div>
 
       {/* Details */}
-      <h3 className="font-semibold  text-xl truncate">{title}</h3>
+      <h3 className="font-semibold  text-xl truncate text-gray-900">{title}</h3>
       <p className="text-md text-gray-600">{time} hours</p>
       <p className="text-md text-gray-500">{readers} Total Readers</p>
     </div>

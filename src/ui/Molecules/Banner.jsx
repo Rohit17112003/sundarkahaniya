@@ -31,7 +31,7 @@ const SimpleSlider = () => {
               width={1000}
               height={400}
               alt="Banner 1"
-              className="rounded-2xl w-full object-cover h-[400px]"
+              className=" rounded-lg md:rounded-xl w-full object-cover md:h-[400px] h-[200px]"
             />
           </Link>
           <Link href="#">
@@ -40,7 +40,7 @@ const SimpleSlider = () => {
               width={1000}
               height={400}
               alt="Banner 2"
-              className="rounded-2xl w-full object-cover h-[400px]"
+              className="rounded-lg md:rounded-xl w-full object-cover md:h-[400px] h-[200px]"
             />
           </Link>
         </Slider>

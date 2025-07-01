@@ -8,15 +8,15 @@ const Toptrendingseries = () => {
       <section>
         <div>
           <div className="flex justify-between">
-            <h1 className=" text-4xl font-bold text-black mt-10 mb-5 ">
+            <h1 className=" md:text-4xl text-xl font-bold text-black mt-10 mb-5">
               Top Trending  Series
             </h1>
-            <button className=" text-4xl  text-black mt-10 mb-5 ">
+            <button className=" md:text-4xl  text-2xl text-black mt-10 mb-5 ">
               <i className="ri-arrow-right-s-line"></i>
             </button>
           </div>
 
-          <div className="flex gap-9 overflow-x-auto scrollbar-hide">
+          <div className="flex md:gap-9 gap-5 overflow-x-auto scrollbar-hide">
             {series.map((item, index) => (
               <StoryCard
                 key={index}

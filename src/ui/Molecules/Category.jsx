@@ -14,16 +14,16 @@ const Category = () => {
       <section>
         <div>
           <div className="flex justify-between">
-            <h1 className=" text-4xl font-bold text-black mt-10 mb-5 ">
+            <h1 className=" md:text-4xl text-xl font-bold text-black mt-10 mb-5 ">
               Explore Categories
             </h1>
-            <button className=" text-4xl  text-black mt-10 mb-5 " onClick={handleAllCategory}>
+            <button className=" md:text-4xl text-2xl  text-black mt-10 mb-5 " onClick={handleAllCategory}>
               <i className="ri-arrow-right-s-line cursor-pointer"></i>
             </button>
           </div>
-          <div className="flex gap-9 overflow-x-auto scrollbar-hide ">
+          <div className="flex md:gap-9 gap-5 overflow-x-auto scrollbar-hide">
             {categorys.map((item, index) => (
-              <Categorycard key={index} img={item.img} title={item.title} />
+              <Categorycard key={index} img={item.img}  count={item.count} title={item.title} className="!w-[300px]"/>
             ))}
           </div>
         </div>
